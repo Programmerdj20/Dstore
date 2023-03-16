@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dstore | Ecommerce</title>
-    <link rel="shortcut icon" href="./assets/img/android-chrome-512x512.png" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,125 +15,87 @@
     />
   </head>
   <body>
-    <div class="overlay" data-overlay></div>
+    <!-- ::::: LOADER ::::: -->
 
-    <!-- ::::: MODAL ::::: -->
+    <!-- <div class="loader-hidden">
+      <div class="loader">
+        <span>Loading</span>
+        <div class="circle circle--1"></div>
+        <div class="circle circle--2"></div>
+        <div class="circle circle--3"></div>
+      </div>
+    </div> -->
 
-    <div class="modal" data-modal>
-      <div class="modal-close-overlay" data-modal-overlay></div>
-
-      <div class="modal-content">
-        <button class="modal-close-btn" data-modal-close>
-          <ion-icon name="close-outline"></ion-icon>
-        </button>
-
-        <div class="newsletter-img">
-          <img
-            src="./assets/img/newsletter.png"
-            alt="suscribe newsletter"
-            width="400"
-            height="400"
-          />
-        </div>
-
-        <div class="newsletter">
-          <form action="#">
-            <div class="newsletter-header">
-              <h3 class="newsletter-tittle">Suscribete al Newsletter.</h3>
-              <p class="newsletter-desc">
-                Suscribete a <b>Dibesensi</b> Joyeria y obten grandes descuentos
-                de los ultimos productos.
-              </p>
-            </div>
-            <input
-              type="email"
-              name="email"
-              class="email-field"
-              placeholder="Email Address"
-              required
-            />
-            <button type="submit" class="btn-newsletter">Suscribete</button>
-          </form>
-        </div>
+    <!-- ::::: HEADER TOP ::::: -->
+    <div class="header-top">
+      <div class="container">
+        <p>Envio <b>Gratis</b> esta semana por compras superiores a $150.000</p>
       </div>
     </div>
 
-
     <!-- ::::: HEADER ::::: -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="/" class="nav-logo">
+          <img src="./assets/img/Logo Navbar.png" alt="Logo Dstore" class="logo-icon" />
+        </a>
 
-    <header>
+        <div class="nav-menu">
+          <button type="button" class="nav-btn btn-close">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
 
-      <div class="header-top">
-  
-        <div class="container">
-  
-          <ul class="header-social-container">
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
+          <ul class="nav-list">
+            <li class="nav-items">
+              <a href="#" class="nav-link">Inicio</a>
             </li>
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
+            <li class="nav-items">
+              <a href="#" class="nav-link">Mujer</a>
             </li>
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
+            <li class="nav-items">
+              <a href="#" class="nav-link">Hombre</a>
             </li>
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-  
           </ul>
-  
-          <div class="header-alert-news">
-            <p>
-              <b>Envio Gratis</b>
-              Esta semana por compras superiores a $150.000
-            </p>
-          </div>
-  
-          <!-- <div class="header-top-actions">
-  
-            <select name="currency">
-  
-              <option value="usd">USD &dollar;</option>
-              <option value="eur">EUR &euro;</option>
-  
-            </select>
-  
-            <select name="language">
-  
-              <option value="en-US">English</option>
-              <option value="es-ES">Espa&ntilde;ol</option>
-              <option value="fr">Fran&ccedil;ais</option>
-  
-            </select>
-  
-          </div> -->
-  
         </div>
-  
-      </div>
+
+        <div class="nav-buttons">
+          <button type="button" class="nav-btn btn-bag">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="notify">0</span>
+          </button>
+
+          <button type="button" class="nav-btn btn-menu">
+            <ion-icon name="grid-outline"></ion-icon></ion-icon>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ::::: HEADER MAIN ::::: -->
+    <main class="main">
+      <section class="products section">
+        <h2 class="products-title section-title">Productos</h2>
+        <div class="products-container container">
+          <article class="product">
+            <div class="product-image">
+              <img src="https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjYyZDgwYzM2LTNlMDQtNDMwNC1iMGE2LThmNjQzZjg5MjA4ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsfX0=" alt="ref 34010">
+            </div>
 
 
+            <div class="product content">
+              <button type="button" class="product-btn addToCart">
+                <ion-icon name="bag-add-outline"></ion-icon>
+              </button>
+              <span class="product-price">$36.000</span>
+              <span class="product-stock">Disponible!!!</span>
+              <h3 class="product-tittle">Arete Balin #4 Diamantado</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
 
-
-
-
-
-
-
-
+    <!-- ::::: NAVIGATION MENU ::::: -->
 
     <script src="./assets/script.js"></script>
     <script
