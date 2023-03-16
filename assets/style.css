@@ -271,3 +271,29 @@ span {
 }
 
 /* ::::: PRODUCTS ::::: */
+
+.product-tittle {
+  margin-bottom: 1rem;
+}
+
+.product {
+  overflow: hidden;
+}
+
+.product-image {
+  padding: 1rem;
+  width: 300px;
+  height: 300px;
+  background-image: url(https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjYyZDgwYzM2LTNlMDQtNDMwNC1iMGE2LThmNjQzZjg5MjA4ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsfX0=);
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+/* .product-image img {
+  transition: background-image 0.5s ease-in-out;
+} */
+
+.product-image:hover {
+  background-image: url(https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImEwMjZiMzg3LTY2MjgtNGQ0OC1iNjQyLWYwZmVhNThmYjc5MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsfX0=);
+}
