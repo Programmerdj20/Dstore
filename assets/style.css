@@ -237,7 +237,7 @@ span {
   font-weight: 500;
 }
 
-.btn-pay {
+.add-cart {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -247,7 +247,7 @@ span {
   cursor: pointer;
 }
 
-.btn-pay:hover {
+.add-cart:hover {
   background-color: var(--main-color);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
