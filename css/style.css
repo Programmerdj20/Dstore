@@ -241,6 +241,10 @@ figure {
   color: var(--secondary);
   font-size: 1.3rem;
 }
+
+.text-cimg {
+  color: var(--grey);
+}
 img {
   vertical-align: middle;
   border-style: none;
