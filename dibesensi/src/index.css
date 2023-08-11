@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Krosta-Demo";
+    src: url("./fonts/Krosta-Demo.otf") format("truetype");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
